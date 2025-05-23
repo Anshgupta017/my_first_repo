@@ -10,7 +10,7 @@ from datetime import datetime  # For real-time date and time
 
 # Configure Google Gemini API (replace 'your-api-key-here' with the actual API key if not using an environment variable)
 gemini_api_key = os.getenv('GEMINI_API_KEY', 'your-api-key-here')
-genai.configure(api_key='AIzaSyCZ6Tk7U_xeL6ymvzpxSYGjt_H4eTEeN4g')
+genai.configure(api_key='get your own')
 
 # Initialize the generative model
 model = genai.GenerativeModel("gemini-1.5-flash")
